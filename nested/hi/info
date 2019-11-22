@@ -1,0 +1,5 @@
+Shows how to use nested folders
+
+In order to run the package, use
+
+  $ rush get nested/hi
