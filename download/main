@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
-# Simply use cp to copy files, since the script will be executed in this 
+# Simply use cp to copy files, since the script will be executed in this
 # folder.
-cp somefile ./downloaded
+cp somefile $HOME/downloaded-file
 
-echo "Saved 'downloaded' in the current directory"
+echo "Saved file to $HOME/downloaded-file"

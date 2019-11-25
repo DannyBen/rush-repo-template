@@ -3,4 +3,4 @@ set -e
 
 # Execute another package, using the $REPO variable, which will hold the 
 # name of the repository, as configured on the user's machine.
-rush get $REPO hello
+rush get hello $REPO
