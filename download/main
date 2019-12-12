@@ -1,8 +1,4 @@
 #!/usr/bin/env bash
 set -e
-
-# Simply use cp to copy files, since the script will be executed in this
-# folder.
-cp somefile $HOME/downloaded-file
-
-echo "Saved file to $HOME/downloaded-file"
+cp somefile $OLDPWD/somefile
+echo "Saved 'somefile' in the current directory"
