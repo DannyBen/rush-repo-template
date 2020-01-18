@@ -18,7 +18,7 @@ Add this repository
 
 ```shell
 $ rush clone GITHUB_USER      # download the repository
-$ rush get hello GITHUB_USER  # test that it is working
+$ rush get GITHUB_USER:hello  # test that it is working
 $ rush list GITHUB_USER       # see package list
 ```
 
