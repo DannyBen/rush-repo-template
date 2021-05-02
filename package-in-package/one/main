@@ -5,4 +5,4 @@ echo "REPO:      $REPO"
 echo "REPO_PATH: $REPO_PATH"
 echo "USER_CWD:  $USER_CWD"
 
-rush $REPO:package-in-package/two
+rush "$REPO:package-in-package/two"
